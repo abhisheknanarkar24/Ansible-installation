@@ -1,0 +1,9 @@
+#baseurl conatins path of directory where dependecies of ansible stored
+# enabled option is used to enable repo
+#gpgcheck is used to avoid gpgcheckkey 
+
+[ ansible ]
+baseurl = file:///apps/ansiblerepo
+enabled = 1
+gpgcheck = 0
+name = ansible installation repo
